@@ -2,7 +2,7 @@
   "name": "csinout",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/georgian4049/csinout",
+  "homepage": "https://georgian4049.github.io/csinout",
   "dependencies": {
     "@date-io/date-fns": "^1.3.13",
     "@material-ui/core": "^4.11.2",
@@ -35,7 +35,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
