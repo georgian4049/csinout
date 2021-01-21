@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 import Navbar from "./Navbar";
+import Appbar from "./Appbar";
 import { makeStyles } from "@material-ui/core/styles";
 // import SelfService from "../container/selfService/SelfService";
 // import Home from "../container/Home";
@@ -33,7 +34,8 @@ export default function Layout() {
   return (
     <div style={{ display: "Flex" }}>
       <Route exact path="/" render={() => <Redirect to="/login" />} />
-      <Route path="/" component={Navbar} />
+      {/* <Route path="/" component={Navbar} /> */}
+      <Route path="/" component={Appbar} />
       <div className={classes.root}>
         <main className={classes.content}>
           <div className={classes.toolbar} />
