@@ -36,7 +36,7 @@ export default function Appbar(props) {
       <ElevationScroll {...props}>
         <AppBar>
           <Toolbar>
-            <Typography variant="h6">Logo</Typography>
+            <Typography variant="h6">Logo and Title</Typography>
           </Toolbar>
         </AppBar>
       </ElevationScroll>
