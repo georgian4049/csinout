@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/csinout/static/js/main.16ecb1cf.chunk.js",
+    "main.js.map": "/csinout/static/js/main.16ecb1cf.chunk.js.map",
+    "runtime-main.js": "/csinout/static/js/runtime-main.9247b57c.js",
+    "runtime-main.js.map": "/csinout/static/js/runtime-main.9247b57c.js.map",
+    "static/js/2.c651f42f.chunk.js": "/csinout/static/js/2.c651f42f.chunk.js",
+    "static/js/2.c651f42f.chunk.js.map": "/csinout/static/js/2.c651f42f.chunk.js.map",
+    "index.html": "/csinout/index.html",
+    "static/js/2.c651f42f.chunk.js.LICENSE.txt": "/csinout/static/js/2.c651f42f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9247b57c.js",
+    "static/js/2.c651f42f.chunk.js",
+    "static/js/main.16ecb1cf.chunk.js"
+  ]
+}
